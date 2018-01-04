@@ -5,4 +5,5 @@ def oxford_comma(array)
       return_string += "#{el}, "
     end
   end
+  return_string
 end
