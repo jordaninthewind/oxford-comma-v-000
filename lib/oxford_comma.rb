@@ -4,7 +4,7 @@ def oxford_comma(array)
     if i < array.length - 2
       return_string += "#{el}, "
     elsif i == array.length - 2
-      return_string += "#{el} and "
+      return_string += "#{el}, and "
     elsif i == array.length - 1
       return_string += "#{el}"
     end
